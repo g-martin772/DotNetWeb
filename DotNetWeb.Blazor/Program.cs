@@ -1,3 +1,4 @@
+using DotNetWeb.Blazor;
 using DotNetWeb.Blazor.Components;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,7 +8,7 @@ builder.AddServiceDefaults();
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
-
+builder.Services.AddHttpClient<WeatherApiClient>(client => client.BaseAddress = new("http://api"));
 
 var app = builder.Build();
 
