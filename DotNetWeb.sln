@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetWeb.Aspire.AppHost", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetWeb.Aspire.ServiceDefaults", "DotNetWeb.Aspire\DotNetWeb.Aspire.ServiceDefaults\DotNetWeb.Aspire.ServiceDefaults.csproj", "{1656C0A9-BACB-4674-8CFE-32DA4CA97C06}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetWeb.Blazor", "DotNetWeb.Blazor\DotNetWeb.Blazor.csproj", "{C4C81FBD-1B13-424F-8EBE-379ADDDEAC45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{1656C0A9-BACB-4674-8CFE-32DA4CA97C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1656C0A9-BACB-4674-8CFE-32DA4CA97C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1656C0A9-BACB-4674-8CFE-32DA4CA97C06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4C81FBD-1B13-424F-8EBE-379ADDDEAC45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4C81FBD-1B13-424F-8EBE-379ADDDEAC45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4C81FBD-1B13-424F-8EBE-379ADDDEAC45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4C81FBD-1B13-424F-8EBE-379ADDDEAC45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
