@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetWeb.Aspire.AppHost", "DotNetWeb.Aspire\DotNetWeb.Aspire.AppHost\DotNetWeb.Aspire.AppHost.csproj", "{75090060-5CA9-4D77-887D-020DAB648F1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetWeb.Aspire.ServiceDefaults", "DotNetWeb.Aspire\DotNetWeb.Aspire.ServiceDefaults\DotNetWeb.Aspire.ServiceDefaults.csproj", "{1656C0A9-BACB-4674-8CFE-32DA4CA97C06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75090060-5CA9-4D77-887D-020DAB648F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75090060-5CA9-4D77-887D-020DAB648F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75090060-5CA9-4D77-887D-020DAB648F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75090060-5CA9-4D77-887D-020DAB648F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1656C0A9-BACB-4674-8CFE-32DA4CA97C06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1656C0A9-BACB-4674-8CFE-32DA4CA97C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1656C0A9-BACB-4674-8CFE-32DA4CA97C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1656C0A9-BACB-4674-8CFE-32DA4CA97C06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
