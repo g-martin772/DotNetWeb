@@ -10,4 +10,9 @@
       <ProjectReference Include="..\DotNetWeb.Aspire\DotNetWeb.Aspire.ServiceDefaults\DotNetWeb.Aspire.ServiceDefaults.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Aspire.StackExchange.Redis" Version="9.0.0-preview.1.24113.3" />
+      <PackageReference Include="Aspire.StackExchange.Redis.OutputCaching" Version="9.0.0-preview.1.24113.3" />
+    </ItemGroup>
+
 </Project>

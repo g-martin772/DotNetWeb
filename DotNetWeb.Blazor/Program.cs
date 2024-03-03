@@ -5,6 +5,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.AddServiceDefaults();
 
+builder.AddRedisOutputCache("cache");
+
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
@@ -22,6 +24,7 @@ app.UseHttpsRedirection();
 
 app.UseStaticFiles();
 app.UseAntiforgery();
+app.UseOutputCache();
 
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
