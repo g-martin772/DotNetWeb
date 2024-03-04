@@ -13,6 +13,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\DotNetWeb.Aspire\DotNetWeb.Aspire.ServiceDefaults\DotNetWeb.Aspire.ServiceDefaults.csproj" />
+      <ProjectReference Include="..\DotNetWeb.DataModel\DotNetWeb.DataModel.csproj" />
     </ItemGroup>
 
 </Project>

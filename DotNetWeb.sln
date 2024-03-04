@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetWeb.Blazor", "DotNetW
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetWeb.Api", "DotNetWeb.Api\DotNetWeb.Api.csproj", "{42F5811F-2B9E-4F4A-8CE6-F7379B85070F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetWeb.DataModel", "DotNetWeb.DataModel\DotNetWeb.DataModel.csproj", "{7A83F10D-9795-49EF-85A4-AAEFF11707A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{42F5811F-2B9E-4F4A-8CE6-F7379B85070F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42F5811F-2B9E-4F4A-8CE6-F7379B85070F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42F5811F-2B9E-4F4A-8CE6-F7379B85070F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A83F10D-9795-49EF-85A4-AAEFF11707A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A83F10D-9795-49EF-85A4-AAEFF11707A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A83F10D-9795-49EF-85A4-AAEFF11707A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A83F10D-9795-49EF-85A4-AAEFF11707A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

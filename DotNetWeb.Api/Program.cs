@@ -1,3 +1,5 @@
+using DotNetWeb.DataModel;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.AddServiceDefaults();
@@ -40,7 +42,3 @@ app.MapGet("/weatherforecast", () =>
 
 app.Run();
 
-public record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
