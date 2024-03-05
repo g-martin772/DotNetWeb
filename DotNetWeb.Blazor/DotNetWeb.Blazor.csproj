@@ -4,6 +4,7 @@
         <TargetFramework>net9.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+        <ContainterBaseImage>mcr.microsoft.com/dotnet/sdk:9.0-preview</ContainterBaseImage>
     </PropertyGroup>
 
     <ItemGroup>
